@@ -71,10 +71,17 @@ color: #a2745c;
 margin-top: 0.5rem;
 }
 .button:hover {opacity: 0.8;}
+
 .projects .button {
     color: white;
     border: 1px solid white;
-    background-color: #d3b4a2;
+    background-color: #dbc2b3;
+    opacity: 1;
+}
+.projects .button:hover {
+    border: 1px solid #a2745c;
+    color: #a2745c;
+    opacity: 0.8;
 }
 
 .subtle {
@@ -113,7 +120,7 @@ margin: 1rem 0;
 .padded-b-0 { padding-bottom: 0;}
 .margin-b-0 { margin-bottom: 0;}
 
-.bg-rust  { background-color: #d3b4a2;}
+.bg-rust  { background-color: #dbc2b3;}
 .bg-green { background-color: #9b9b81;}
 .bg-dark  { background-color: #a2745c;}
 
