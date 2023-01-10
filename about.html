@@ -1,7 +1,35 @@
 --- 
 layout: default 
+team: 
+ - name: Greg 
+   bio: Web Developer   
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
+- name: Jane  
+   bio: Designer  
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
+- name: Mike  
+   bio: Manager  
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
 ---
 
-<section>
-    ABOUT 
+<!-- Banner Section -->
+<section class="grid tall-60 bg-green">
+    <div class="col-5-middle padded editable ">
+        <h2> Meet our growing family </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas culpa adipisci! Nobis nemo soluta animi nihil dolore quae voluptates illo, nostrum quia obcaecati facilis, praesentium totam in. Perferendis, placeat! </p>
+    </div>
+    <div class="col-7 bg-image bg-plant"></div>
+</section>
+
+<section class="padded">
+    {% for person in page.team %}
+
+    <div class="grid">
+        <div class="col-5">
+            <img src="">
+        </div>
+    </div>
+
+    {% endfor %}
+
 </section>
