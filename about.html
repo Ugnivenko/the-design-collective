@@ -8,11 +8,12 @@ team:
 - name: Jane  
    bio: Designer  
    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
-   profile_image: /images/profile-2.jpg
+   profile_image: /images/profile-3.jpg
 - name: Mike  
    bio: Manager  
    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
-   profile_image: /images/profile-3.jpg
+   profile_image: /images/profile-2.jpg
+about-video-id: undefined
 ---
 
 <!-- Banner Section -->
@@ -25,11 +26,12 @@ team:
 </section>
 
 <section class="padded">
+    <div class="capped-width">
     {% for person in page.team %}
 
     <div class="grid">
         <div class="col-5 padded-2">
-            <img src="{{person.profile_image}}">
+            <img src="{{person.profile_image}}" class="profile-image">
         </div>
         <div class="col-7-middle padded-1">
             <h3> Meet {{person.name}}</h3>
@@ -39,6 +41,16 @@ team:
     </div>
 
     {% endfor %}
+    </div>
 </section>
 
 <!-- Meet the team Video -->
+<section class="padded bg-green center">
+    <h2> Watch our corny meet the team video </h2>
+    <p> Featured j-bomb the terrier </p>
+
+    <div class='embed-container'>
+        <iframe src='https://www.youtube.com/embed/{{page.about-video-id}}' frameborder='0' allowfullscreen></iframe>
+    </div>
+
+</section>
