@@ -1,5 +1,6 @@
 --- 
 layout: default
+banner_image: /images/plant.jpg
 team: 
  - name: Greg 
    bio: Web Developer   
@@ -13,7 +14,7 @@ team:
    bio: Manager  
    description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia deserunt error quasi illum.
    profile_image: /images/profile-2.jpg
-about-video-id: undefined
+about-video_id: SuPPXj2R57Y
 --- 
 
 <!-- Banner Section -->
@@ -22,14 +23,15 @@ about-video-id: undefined
         <h2> Meet our growing family </h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas culpa adipisci! Nobis nemo soluta animi nihil dolore quae voluptates illo, nostrum quia obcaecati facilis, praesentium totam in. Perferendis, placeat! </p>
     </div>
-    <div class="col-7 bg-image bg-plant"></div>
+    <div class="col-7 bg-image bg-plant" style="background-image: url('{{page.banner_image}}')">
+    </div>
 </section>
 
 <section class="padded">
     <div class="capped-width">
     {% for person in page.team %}
 
-    <div class="grid">
+    <div class="grid flex-flip-alternate">
         <div class="col-5 padded-2">
             <img src="{{person.profile_image}}" class="profile-image">
         </div>
@@ -47,10 +49,9 @@ about-video-id: undefined
 <!-- Meet the team Video -->
 <section class="padded bg-green center">
     <h2> Watch our corny meet the team video </h2>
-    <p> Featured j-bomb the terrier </p>
+    <p class="emphasis"> Featured j-bomb the terrier </p>
 
-    <div class='embed-container'>
-        <iframe src='https://www.youtube.com/embed/{{page.about-video-id}}' frameborder='0' allowfullscreen></iframe>
+    <div class="padded-1"> 
+    <div class='embed-container'><iframe src='https://www.youtube.com/embed/{{page.about-video_id}}' frameborder='0' allowfullscreen></iframe></div>
     </div>
-
 </section>
