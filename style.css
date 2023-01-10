@@ -154,24 +154,6 @@ margin: 1rem 0;
     background-image: url('/images/meeting.jpg');
 }
 
-/* sm - max-width in px approximately 768px */
-@media(max-width: 48em) {
-    .hide-sm {display: none;}
-    .center-sm {text-align: center;}
-    .flex-flip-sm {flex-direction: column-reverse;}
-    .bg-plant {
-        background-image: url('/images/plant-light.png');
-}
-    .bg-plant-2 {
-    background-image: url('/images/plant-2-light.png');
-    background-position: 45% 50%;}
-    h2 {font-size: 1.8rem;}
-    h3 {font-size: 1.3rem;}
-    p {font-size: 0.8rem;}
-    .drop-text {display: block;}
-    .button {font-size: 0.8rem;}
-
-
 [data-ff-el="root"].ff-63a3f16bd4043cac46b33499 .ff-63a3f16bd4043cac46b33499__form {
     color: #3c3c3c;
     width: 100%;
@@ -194,3 +176,23 @@ margin: 1rem 0;
     line-height: 1;
     letter-spacing: 0px;
     text-transform: none;}
+
+    
+/* sm - max-width in px approximately 768px */
+@media(max-width: 48em) {
+    .hide-sm {display: none;}
+    .center-sm {text-align: center;}
+    .flex-flip-sm {flex-direction: column-reverse;}
+    .bg-plant {
+        background-image: url('/images/plant-light.png');
+}
+    .bg-plant-2 {
+    background-image: url('/images/plant-2-light.png');
+    background-position: 45% 50%;}
+    h2 {font-size: 1.8rem;}
+    h3 {font-size: 1.3rem;}
+    p {font-size: 0.8rem;}
+    .drop-text {display: block;}
+    .button {font-size: 0.8rem;}
+    }
+

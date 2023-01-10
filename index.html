@@ -1,64 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <!------- This is the head of the HTML for linking external resources & metadata ------->
-    <head>
-    	<!-- The title for SEO & browser tabs -->
-		<title> The Design Collective </title>
-
-		<!-- Viewport meta tag -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-		<!-- Gridlex -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-    
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-		<!-- Add Google Fonts Here  -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
-    
-		<!-- My own custom stylesheet -->
-		<link rel="stylesheet" href="/style.css"> 
-
-        <script>
-            (function(w, d, t, h, s, n) {
-              w.FlodeskObject = n;
-              var fn = function() {
-                (w[n].q = w[n].q || []).push(arguments);
-              };
-              w[n] = w[n] || fn;
-              var f = d.getElementsByTagName(t)[0];
-              var v = '?v=' + Math.floor(new Date().getTime() / (120 * 1000)) * 60;
-              var sm = d.createElement(t);
-              sm.async = true;
-              sm.type = 'module';
-              sm.src = h + s + '.mjs' + v;
-              f.parentNode.insertBefore(sm, f);
-              var sn = d.createElement(t);
-              sn.async = true;
-              sn.noModule = true;
-              sn.src = h + s + '.js' + v;
-              f.parentNode.insertBefore(sn, f);
-            })(window, document, 'script', 'https://assets.flodesk.com', '/universal', 'fd');
-          </script>
-    </head>
-
-    <!------ This is the body, where all of the contents of our page go  ------->
-    <body>
-<!-- Header Section -->
-		<header class="grid">
-            <div class="col-6_sm-12-middle center-sm padded-0">
-                <h1> The Design Collective. </h1>
-            </div>
-          <nav class="col-6_sm-12-middle right center-sm padded-0">
-            <a href="#why-us"> Why Us </a>
-            <a href="#services"> Services </a>
-            <a href="#projects"> Projects </a>
-            <a href="#contact"> Contact </a>
-          </nav>
-        </header>
+--- 
+layout: default 
+---
 
 <!-- Banner Section -->
     <section class="grid-middle bg-image bg-plant padded tall-70">
@@ -138,6 +80,7 @@
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quos culpa illum ratione placeat assumenda doloremque architecto officia nulla modi temporibus, nihil magni harum iusto et ea!</p>
             </div>
         </section>
+
     <!-- Features / about blocks -->
     <section class="bg-rust padded projects" id="projects">
         <h2 class="center"> Recent Projects </h2>
@@ -164,42 +107,4 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="grid light-text padded bg-dark light-tex padded-b-0" id="contact">
-        <div class="col-6_sm-12-middle  center-sm ">
-            <!-- <h2 class="logo"> The Design Collective. </h2> -->
-            <div class="padded-b">
-            <h3> The Design & Development </h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus vel id, magnam debitis quisquam corrupti labore aperiam, temporibus reprehenderit maiores quos, quam repudiandae eius. Mollitia itaque quae fuga perspiciatis!</p>
-            </div>
-            <div>
-        <h3> Let's Connect. </h3>
-        <nav>
-            <a href="#"> <i class="fa-brands fa-pinterest-p"></i></a> 
-            <a href="#"> <i class="fa-brands fa-facebook-f"></i></a> 
-            <a href="#"> <i class="fa-brands fa-instagram"></i></a> 
-            <a href="#"> <i class="fa-brands fa-twitter"></i></a> 
-        </nav>
-        </div>
-    </div>
-        <div class="col-6_sm-12-top right center-sm ">
-            <div id="fd-form-63a3f16bd4043cac46b33499"></div>
-            <script>
-              window.fd('form', {
-                formId: '63a3f16bd4043cac46b33499',
-                containerEl: '#fd-form-63a3f16bd4043cac46b33499'
-              });
-            </script>
-        </div>
-
-        </div>
-        <div class="col-12 center padded-t-1">
-            <p class="subtle"> Copyright 2023 </p>
-        </div>
-
-
-    </footer>
-
-
-</body>
-</html>
+   
