@@ -176,8 +176,9 @@ margin: 1rem 0;
 .profile-image {
     border-radius: 100%;
 }
+.landscape {padding-bottom: 60%;}
 
-/* Responsive Video */
+/* ---Responsive Video---- */
 .embed-container {
     position: relative;
     padding-bottom: 56.25%;
