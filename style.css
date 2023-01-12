@@ -273,11 +273,11 @@ form .button {
  [data-ff-el="root"].ff-63a3f16bd4043cac46b33499 .ff-63a3f16bd4043cac46b33499__button {
     color: #ffffff;
     width: 100%;
-    border: 1px solid #a2745c;
+    border: 1px solid #a2745c !important;
     display: inline-block;
     padding: 12px 20px;
     font-size: 13px;
-    background: #dbc2b3;
+    background: #a2745c !important;
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
@@ -286,6 +286,26 @@ form .button {
     letter-spacing: 0.1px;
     text-transform: none;
     }
+    [data-ff-el="root"].ff-63a3f16bd4043cac46b33499 .ff-63a3f16bd4043cac46b33499__button:hover {
+        background-color: #dbc2b3 !important;
+        border: 1px solid #dbc2b3 !important;
+    }
+
+    [data-ff-el="root"].ff-63a3f16bd4043cac46b33499 .ff-63a3f16bd4043cac46b33499__control {
+        color: #000000;
+        border: 1px solid #dbc2b3 !important;
+        height: 46px;
+        padding: 12px 20px;
+        font-size: 13px;
+        background: transparent;
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        border-radius: 0px;
+        letter-spacing: 0.1px;
+        text-transform: none;
+      }
     
 /* sm - max-width in px approximately 768px */
 @media(max-width: 48em) {
