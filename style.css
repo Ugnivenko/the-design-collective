@@ -75,6 +75,8 @@ margin-top: 0.5rem;
 }
 .button:hover {opacity: 0.8;}
 
+.button-dark {border: 1px solid #a2745c;}
+
 .projects .button {
     color: white;
     border: 1px solid white;
@@ -127,6 +129,7 @@ margin: 1rem 0;
 
 .margin-b-1 { margin-bottom: 1rem;}
 .margin-b-2 { margin-bottom: 2rem;}
+.margin-t-1 { margin-top: 1rem;}
 
 .padded-0 { padding: 0; }
 .padded-b-0 { padding-bottom: 0;}
@@ -267,6 +270,22 @@ form .button {
     letter-spacing: 0px;
     text-transform: none;}
 
+ [data-ff-el="root"].ff-63a3f16bd4043cac46b33499 .ff-63a3f16bd4043cac46b33499__button {
+    color: #ffffff;
+    width: 100%;
+    border: 1px solid #a2745c;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 13px;
+    background: #dbc2b3;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 0px;
+    letter-spacing: 0.1px;
+    text-transform: none;
+    }
     
 /* sm - max-width in px approximately 768px */
 @media(max-width: 48em) {

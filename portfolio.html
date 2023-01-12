@@ -26,7 +26,7 @@ layout: default
 {% include newsletter-signup.html %}
 
 <section class="padded">
-    <h2 class="center"> Featured Project </h2>
+    <h2 class="center margin-b-2"> Featured Project </h2>
 
     <div class="capped-width"> 
 
@@ -36,14 +36,14 @@ layout: default
     style="background-image: url('{{project.featured_image}}');"></div>
 
     <div class="grid-spaceBetween">
-        <div class="col-5 padded-1"> 
+        <div class="col-5 padded-1 margin-t-1"> 
             <h3> {{project.title}} </h3>
             <p class="emphasis"> {{project.description}} </p>
         </div>
-        <div class="col-4 padded-1"> 
+        <div class="col-4 padded-1 margin-t-1"> 
             <p class="emphasis"> Design by: {{project.design-by}} </p>
             <p class="emphasis"> Build by: {{project.build-by}} </p>
-            <a href="{{project.live_url}}" class="button" target="_blank"> View Live Site </a>
+            <a href="{{project.live_url}}" class="button button-dark" target="_blank"> View Live Site </a>
         </div>
     </div>
 
