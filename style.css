@@ -138,7 +138,7 @@ margin: 1rem 0;
 .bg-rust  { background-color: #dbc2b3;}
 .bg-green { background-color: #9b9b81;}
 .bg-dark  { background-color: #a2745c;}
-
+.border-white { border: white;}
 .light-text { color: white; } 
 
 .left   { text-align: left;}
